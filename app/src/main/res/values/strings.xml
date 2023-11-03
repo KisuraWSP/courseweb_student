@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">courseweb_student</string>
+    <!-- Application Name -->
+    <string name="app_name">courseweb_student_prototype</string>
+
+    <!-- Login Activity String IDS -->
+    <string name="userName_textview">User Name</string>
+    <string name="userName_helpMsg">Enter User Name!!!</string>
+    <string name="password_textview">Password</string>
+    <string name="password_helpMsg">Enter Password!!!</string>
+    <string name="login_btn">Login</string>
+    <string name="createUser_btn">Create User</string>
+
+    <!-- Create User Activity String IDS -->
+    <string name="createUser_textview">Create User</string>
+    <string name="re_enter_password_textview">Re-Enter Password</string>
+    <string name="re_enter_password_helpMsg">Re-Enter Password!!!</string>
+    <string name="submit_btn">Submit</string>
+
+    <!-- Main Activity String IDS -->
+    <string name="about_btn">About</string>
+    <string name="profile_btn">Profile</string>
+    <string name="modules_btn">Modules</string>
+    <string name="resources_btn">Resources</string>
 </resources>

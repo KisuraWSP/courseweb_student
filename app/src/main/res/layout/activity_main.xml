@@ -6,13 +6,69 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="197dp"
+        android:layout_height="181dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/app_logo" />
 
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="320dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/secondary"
+        android:text="@string/about_btn"
+        android:textSize="34sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/profile_btn"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/accent_orange"
+        android:text="@string/profile_btn"
+        android:textSize="34sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_btn" />
+
+    <Button
+        android:id="@+id/module_btn"
+        android:layout_width="318dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/accent_red"
+        android:text="@string/modules_btn"
+        android:textSize="34sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_btn" />
+
+    <Button
+        android:id="@+id/resource_btn"
+        android:layout_width="319dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/accent_red"
+        android:text="@string/resources_btn"
+        android:textSize="34sp"
+        app:cornerRadius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/module_btn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
