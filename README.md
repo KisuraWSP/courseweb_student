@@ -18,4 +18,11 @@ To Be added Soon
 6. Media Player to view the audio or video files in the resource page
 7. Profile page to view the profile
 8. CRUD operations to the Recycler views
+9. Dark mode Interfaces
+10. Backward Navigation between activities
+11. Admin Console {
+  - view all users in the database
+  - CRUD Operations to User Database
+  - CRUD Operations to Module Database
+}
 ```
