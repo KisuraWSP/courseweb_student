@@ -1,6 +1,11 @@
 # courseweb_androidApp
 ```
-Disclaimer
-Right now the app is still unstable, so its not reccommended to git clone the project and generate an apk using android studio
-So it is recommend u just view the code for your own interest an tell me what issues that i can fix in it
+Features Implemented
+1. Login System
+2. Login System now uses room database to check for users
+3. Room Database stored locally on your device
+4. Android Activities
+5. Explicit Intents
+6. Toast Message Popup to show users what the status of the application is currently in
+7. App Icon and Loading Screen Icon
 ```
