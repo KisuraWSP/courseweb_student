@@ -20,3 +20,4 @@ class UserViewModel(private val repository: UserRepository) : ViewModel() {
         return repository.getUserByName(userName)
     }
 }
+
