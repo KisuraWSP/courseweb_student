@@ -1,18 +1,6 @@
 # courseweb_androidApp
-To Do
-Admin Side
-1. User
-   - Create, Read, Update, Delete User Profil
-
-2. Module
-   - Create, Read, Update, Delete Modules
-
-3. Support
-   - View Tickets Sent by students
-   - Send Responses to students from the ticket that they have sent
-
-4. Resources
-   - 
-
-5. Notices
-   -
+```
+Disclaimer
+Right now the app is still unstable, so its not reccommended to git clone the project and generate an apk using android studio
+So it is recommend u just view the code for your own interest an tell me what issues that i can fix in it
+```
