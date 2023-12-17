@@ -17,5 +17,5 @@ interface ModuleDao {
     suspend fun delete(module: Module)
 
     @Query("SELECT * FROM modules")
-    fun getAllModuless(): LiveData<List<Module>>
+    fun getAllModules(): LiveData<List<Module>>
 }
