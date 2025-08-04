@@ -1,5 +1,11 @@
 # courseweb_androidApp
 ```
+TODO:
+1. Update Dependancies in the app
+2. Finish Remaining Tasks
+3. Polish the Application
+4. Remove Deprecated Dependancies
+
 Features Implemented
 1. Login System
 2. Login System now uses room database to check for users
